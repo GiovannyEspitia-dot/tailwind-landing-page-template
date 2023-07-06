@@ -32,7 +32,7 @@ const Hero = () => {
           <div className="text-center pb-12 md:pb-16">
             <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Hello! I'm <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-400 to-purple-500">EunLim Kim</span></h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">I am a Master's student at Georgia Tech, pursuing my passion in the field of User Research and Project Management.</p>
+              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">I am a Master's student at Georgia Tech, pursuing my passion in the field of User Research and Product Management.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
                   <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="https://drive.google.com/file/d/1QHSOiIp0EkREnaKvP3_ai1QeFM10XpL9/view?usp=sharing" target='_blank'>Resume</a>

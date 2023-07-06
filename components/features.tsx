@@ -47,8 +47,8 @@ export default function Features() {
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
-                <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+               <a
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 transform hover:scale-105 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
@@ -63,7 +63,7 @@ export default function Features() {
                   </div>
                 </a>
                 <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 transform hover:scale-105 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
@@ -78,7 +78,7 @@ export default function Features() {
                   </div>
                 </a>
                 <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 transform hover:scale-105 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
@@ -116,9 +116,9 @@ export default function Features() {
                     unmount={false}                     
                   >
                     <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none mx-auto rounded" src={"https://www.kimmy-kim.com/uploads/1/4/2/9/142913591/editor/frame-11-5.png?1675919031"} width={500} height="462" alt="Features bg" />
-                      
-                    </div>
+                     
+                    <a href="/exp1"><Image className="md:max-w-none mx-auto rounded transform transition-transform duration-500 hover:scale-110" src={"https://www.kimmy-kim.com/uploads/1/4/2/9/142913591/editor/frame-11-5.png?1675919031"} width={500} height="462" alt="Features bg" /></a>
+                  </div>
                   </Transition>
                   {/* Item 2 */}
                   <Transition
@@ -134,10 +134,9 @@ export default function Features() {
                     beforeEnter={() => heightFix()}
                     unmount={false}                     
                   >
-                    <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none mx-auto rounded" src={"https://www.kimmy-kim.com/uploads/1/4/2/9/142913591/editor/slide-16-9-1.png?1675790921"} width={500} height="462" alt="Features bg" />
-                      
-                    </div>
+                   <div className="relative inline-flex flex-col">
+                    <a href="/exp2"><Image className="md:max-w-none mx-auto rounded transform transition-transform duration-500 hover:scale-110" src={"https://www.kimmy-kim.com/uploads/1/4/2/9/142913591/editor/slide-16-9-1.png?1675790921"} width={500} height="462" alt="Features bg" /></a>
+                  </div>
                   </Transition>
                   {/* Item 3 */}
                   <Transition
@@ -154,9 +153,8 @@ export default function Features() {
                     unmount={false}                     
                   >
                     <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none mx-auto rounded" src={"https://www.kimmy-kim.com/uploads/1/4/2/9/142913591/editor/frame-10.png?1675915941"} width={500} height="462" alt="Features bg" />
-                      
-                    </div>
+                    <a href="/exp3"><Image className="md:max-w-none mx-auto rounded transform transition-transform duration-500 hover:scale-110" src={"https://www.kimmy-kim.com/uploads/1/4/2/9/142913591/editor/frame-10.png?1675915941"} width={500} height="462" alt="Features bg" /></a>
+                  </div>
                   </Transition>
                 </div>
               </div>
