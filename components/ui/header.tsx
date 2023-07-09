@@ -37,7 +37,7 @@ export default function Header() {
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
-                <Link target="_blank" href="https://drive.google.com/file/d/1QHSOiIp0EkREnaKvP3_ai1QeFM10XpL9/view?usp=sharing" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Resume</Link>
+                <Link target="_blank" href="https://drive.google.com/file/d/1HLgQHldound2ruBTK0EZfRhMalbDIgY3/view?usp=sharing" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Resume</Link>
               </li>
               <li>
                 <Link target="_blank" href="mailto:eunlim960831@gmail.com" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Contact Me</Link>

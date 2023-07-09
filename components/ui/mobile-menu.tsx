@@ -65,7 +65,7 @@ export default function MobileMenu() {
         >
           <ul className="px-5 py-2">
             <li>
-              <Link href="https://drive.google.com/file/d/1QHSOiIp0EkREnaKvP3_ai1QeFM10XpL9/view?usp=sharing" target="_blank" className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>Resume</Link>
+              <Link href="https://drive.google.com/file/d/1HLgQHldound2ruBTK0EZfRhMalbDIgY3/view?usp=sharing" target="_blank" className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>Resume</Link>
             </li>
             <li>
               <Link href="mailto:eunlim960831@gmail.com" target="_blank" className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center" onClick={() =>  setMobileNavOpen(false)}>Contact Me</Link>

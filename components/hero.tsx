@@ -35,7 +35,7 @@ const Hero = () => {
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">I am a Master's student at Georgia Tech, pursuing my passion in the field of User Research and Product Management.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                  <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="https://drive.google.com/file/d/1QHSOiIp0EkREnaKvP3_ai1QeFM10XpL9/view?usp=sharing" target='_blank'>Resume</a>
+                  <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="https://drive.google.com/file/d/1HLgQHldound2ruBTK0EZfRhMalbDIgY3/view?usp=sharing" target='_blank'>Resume</a>
                 </div>
               </div>
             </div>
